@@ -60,8 +60,8 @@ a.sohdr_ou										'Ou_id'
 ,sohdr_created_date								'Created date&time'
 ,sohdr_authorize_by								'Authorise by'										
 ,sohdr_authorize_date							'Authorise date&time'
-,sohdr_modified_by								'Modified By'
-,sohdr_modified_date							'Modified date&time'
+--,sohdr_modified_by								'Modified By'
+--,sohdr_modified_date							'Modified date&time'
 into #temp
 FROM 
 SCMDB..SO_ORDER_HDR a with (NOLOCK)
